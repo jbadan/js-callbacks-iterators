@@ -9,7 +9,10 @@
   {name: "Cottage Cheese", level: "not very"}
 ];
 
-// your code here
+foods.forEach(function(title){
+  console.log(title.name+" is "+title.level+" delicious.");
+})
+
 
 // The output should be
 // > Pizza is very delicious
